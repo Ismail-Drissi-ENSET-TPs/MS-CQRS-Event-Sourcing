@@ -30,7 +30,7 @@ CQRS (Command Query Responsibility Segregation) is a pattern that separates the 
 
 ### What is Axon?
 
-![](screenshots/axon.png)
+![Axon Framework](screenshots/axon.png)
 
 Axon is a specialized Java framework designed to simplify the implementation of CQRS and Event Sourcing.
 
@@ -41,9 +41,9 @@ Axon is a specialized Java framework designed to simplify the implementation of 
 
 ## System Architecture
 
-The application is composed of two specialized services:
+Below is the detailed architecture diagram illustrating the CQRS and Event Sourcing implementation:
 
-![System architecture](screenshots/architecture.png)
+![CQRS and Event Sourcing Architecture](screenshots/diagram.png)
 
 ### 1. Account-Service
 
@@ -53,10 +53,27 @@ This service manages the lifecycle of bank accounts and serves as the primary en
 
 This service consumes events to provide real-time insights and data analysis without impacting the performance of the main account service.
 
-
 ---
 
 ## Screenshots
 
-![](screenshots/account-analytics-chart.jpeg)
-![](screenshots/account-analytics-chart-after.png)
+Below are some screenshots showcasing the application:
+
+
+
+
+### Axon Server Dashboards
+
+#### Commands Dashboard
+![Commands Dashboard](screenshots/commands-dashboard-axon.png)
+
+#### Queries Dashboard
+![Queries Dashboard](screenshots/queries-dashboard-axon.png)
+
+### Account Analytics
+
+#### Chart Before Update
+![Account Analytics Chart](screenshots/account-analytics-chart.jpeg)
+
+#### Chart After Update
+![Account Analytics Chart After](screenshots/account-analytics-chart-after.png)
