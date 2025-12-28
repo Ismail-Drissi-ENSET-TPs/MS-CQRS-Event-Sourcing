@@ -49,7 +49,7 @@ Below is the detailed architecture diagram illustrating the CQRS and Event Sourc
 
 This service manages the lifecycle of bank accounts and serves as the primary entry point for state changes.
 
-Here is the docs using Swagger docs:
+Here are the docs using Swagger docs:
 
 ![Swagger Docs](screenshots/swagger-docs.png)
 
@@ -81,3 +81,4 @@ Below are some screenshots showcasing the application:
 #### Chart After Update
 
 ![Account Analytics Chart After](screenshots/account-analytics-chart-after.png)
+
