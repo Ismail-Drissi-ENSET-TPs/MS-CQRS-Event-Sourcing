@@ -4,7 +4,7 @@
 
 This project demonstrates a modern microservices architecture using **Event Sourcing** and **CQRS** patterns. The system is built with **Spring Boot** and leverages the **Axon Framework** and **Axon Server** to handle message routing and event storage.
 
----
+
 
 ## Technical Concepts
 
@@ -24,7 +24,7 @@ CQRS (Command Query Responsibility Segregation) is a pattern that separates the 
 * **Query Side:** Handles data retrieval. It uses projections (read models) that are optimized for specific UI or analytical requirements.
 * **Synchronization:** The two sides are synchronized via events published by the command side.
 
----
+
 
 ## Frameworks and Tools
 
@@ -37,7 +37,7 @@ Axon is a specialized Java framework designed to simplify the implementation of 
 * **Axon Framework:** Provides the building blocks like Aggregates, Command Handlers, and Event Processors.
 * **Axon Server:** Acts as a dedicated **Event Store** and a **Message Router**. It handles the distribution of Commands, Events, and Queries across different microservices.
 
----
+
 
 ## System Architecture
 
@@ -53,14 +53,13 @@ This service manages the lifecycle of bank accounts and serves as the primary en
 
 This service consumes events to provide real-time insights and data analysis without impacting the performance of the main account service.
 
----
 
 ## Screenshots
 
 Below are some screenshots showcasing the application:
 
-
-
+### Axon Server Applications View
+![Axon Server Applications](screenshots/axon-server-applications.png)
 
 ### Axon Server Dashboards
 
