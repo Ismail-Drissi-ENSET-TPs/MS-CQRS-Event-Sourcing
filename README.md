@@ -43,7 +43,7 @@ Axon is a specialized Java framework designed to simplify the implementation of 
 
 Below is the detailed architecture diagram illustrating the CQRS and Event Sourcing implementation:
 
-![CQRS and Event Sourcing Architecture](screenshots/diagram.png)
+![CQRS and Event Sourcing Architecture](screenshots/new-diagram.png)
 
 ### 1. Account-Service
 
