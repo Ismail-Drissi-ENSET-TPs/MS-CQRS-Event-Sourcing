@@ -51,7 +51,7 @@ This service manages the lifecycle of bank accounts and serves as the primary en
 
 Here is the docs using Swagger docs:
 
-![Swagger Docs](swagger-docs.png)
+![Swagger Docs](screenshots/swagger-docs.png)
 
 ### 2. Account-Analytics-Service
 
@@ -79,4 +79,5 @@ Below are some screenshots showcasing the application:
 ![Account Analytics Chart](screenshots/account-analytics-chart.jpeg)
 
 #### Chart After Update
+
 ![Account Analytics Chart After](screenshots/account-analytics-chart-after.png)
